@@ -1,0 +1,4 @@
+cn\haison\waf\utils\ConfigReaderTest.class
+cn\haison\waf\GeneralTest.class
+cn\haison\waf\utils\CacheTest.class
+cn\haison\waf\utils\CacheUtilsTest.class

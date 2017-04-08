@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="user.home" />
+	<defaultCache   
+		maxElementsInMemory="5000"   
+		eternal="false"   
+		timeToIdleSeconds="300"   
+		timeToLiveSeconds="3600"   
+		overflowToDisk="true" />   
+    <cache name="sessions" 
+	    maxElementsInMemory="5000" 
+	    eternal="true" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache> 
+	<cache name="users" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="urls" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="global.counters" 
+	    maxElementsInMemory="500" 
+	    eternal="false" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="url.counters" 
+	    maxElementsInMemory="1500" 
+	    eternal="false" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="ip.counters" 
+	    maxElementsInMemory="1500" 
+	    eternal="false" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="session.counters" 
+	    maxElementsInMemory="5000" 
+	    eternal="false" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="session.url.counters" 
+	    maxElementsInMemory="5000" 
+	    eternal="false" 
+	    timeToIdleSeconds="3" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache>
+	<cache name="exception.counters" 
+	    maxElementsInMemory="500" 
+	    eternal="false" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="1800" 
+	    overflowToDisk="true">
+	</cache>
+	<cache name="user.sessions" 
+	    maxElementsInMemory="1500" 
+	    eternal="false" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="false">
+	    <searchable/>
+	</cache> 
+	<cache name="exceptions" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="true">
+	</cache>
+	<cache name="ip5" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="300" 
+	    timeToIdleSeconds="300" 
+	    diskPersistent="true"
+	    overflowToDisk="true">
+		<BootstrapCacheLoaderFactory 
+			class="net.sf.ehcache.store.DiskStoreBootstrapCacheLoaderFactory" 
+			properties="bootstrapAsynchronously=true" />
+	</cache>
+	<cache name="ip10" 
+	    maxElementsInMemory="500" 
+	    eternal="true" 
+	    timeToLiveSeconds="600" 
+	    timeToIdleSeconds="600" 
+	    diskPersistent="true"
+	    overflowToDisk="true">
+		<BootstrapCacheLoaderFactory 
+			class="net.sf.ehcache.store.DiskStoreBootstrapCacheLoaderFactory" 
+			properties="bootstrapAsynchronously=true" />
+	</cache>  
+	<cache name="ip30" 
+	    maxElementsInMemory="100" 
+	    eternal="true" 
+	    timeToLiveSeconds="1800" 
+	    timeToIdleSeconds="1800" 
+	    diskPersistent="true"
+	    overflowToDisk="true">
+		<BootstrapCacheLoaderFactory 
+			class="net.sf.ehcache.store.DiskStoreBootstrapCacheLoaderFactory" 
+			properties="bootstrapAsynchronously=true" />
+	</cache>    
+	<cache name="ip99" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="1800" 
+	    timeToIdleSeconds="3600" 
+	    diskPersistent="true"
+	    overflowToDisk="true">
+		<BootstrapCacheLoaderFactory 
+			class="net.sf.ehcache.store.DiskStoreBootstrapCacheLoaderFactory" 
+			properties="bootstrapAsynchronously=true" />
+	</cache>
+	<cache name="ip66" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="1800" 
+	    timeToIdleSeconds="3600" 
+	    diskPersistent="true"
+	    overflowToDisk="true">
+		<BootstrapCacheLoaderFactory 
+			class="net.sf.ehcache.store.DiskStoreBootstrapCacheLoaderFactory" 
+			properties="bootstrapAsynchronously=true" />
+	</cache>
+	<cache name="ip.logs" 
+	    maxElementsInMemory="1500" 
+	    eternal="true" 
+	    timeToLiveSeconds="3600" 
+	    timeToIdleSeconds="3600" 
+	    overflowToDisk="true">
+	</cache>
+	<cache name="email.logs" 
+	    maxElementsInMemory="100" 
+	    eternal="true" 
+	    timeToLiveSeconds="300" 
+	    timeToIdleSeconds="300" 
+	    overflowToDisk="true">
+	</cache>
+</ehcache>
