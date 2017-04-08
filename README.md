@@ -2,9 +2,16 @@
 An open source web application firewall component
 # features
 * exception manager 
-*  counter,capture,protect
-* quota manager (max sessions,max sessions per user,max online users,max single url per session in self-defin time unit)
-* attack defence (SQL Injection,XSS)
+	* counter,capture,protect
+* quota manager 
+	* max sessions
+	* max sessions per user
+	* max online users
+	* max single url per session in self-defin time unit(for example 10/5s means that user can request a url 10 times in 5 seconds)
+* attack defence 
+	* SQL Injection
+	* XSS
+	* click jack
 * muti-mode support
 # screenshots
 seawaf index page
