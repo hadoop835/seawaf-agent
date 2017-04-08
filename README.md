@@ -6,7 +6,7 @@ An open source web application firewall component
 * xss attack defence
 * self-define request frequency
 # demo
-![](https://github.com/zhuinfo/seawaf-agent/)
+
 # how to
 Adding the follow configuration to your web.xml
 ```xml
