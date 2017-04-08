@@ -5,8 +5,13 @@ An open source web application firewall component
 * sql injecttion attack defence
 * xss attack defence
 * self-define request frequency
-# demo
-
+# screenshots
+seawaf index page
+![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/index.png)
+when 500 error detected
+![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/exceptions.png)
+when 500 error occur times more than max permitted ,the exception url will be protected for a while
+![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/protected.png)
 # how to
 Adding the follow configuration to your web.xml
 ```xml
