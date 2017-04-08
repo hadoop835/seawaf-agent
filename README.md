@@ -1,10 +1,11 @@
 # seawaf-agent
 An open source web application firewall component
 # features
-* exception capture and protect
-* sql injecttion attack defence
-* xss attack defence
-* self-define request frequency
+* exception manager 
+*  counter,capture,protect
+* quota manager (max sessions,max sessions per user,max online users,max single url per session in self-defin time unit)
+* attack defence (SQL Injection,XSS)
+* muti-mode support
 # screenshots
 seawaf index page
 ![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/index.png)
