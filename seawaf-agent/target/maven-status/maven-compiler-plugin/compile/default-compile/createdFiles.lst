@@ -1,11 +1,9 @@
-com\seawaf\db\Counters.class
 com\seawaf\config\Application.class
 com\seawaf\config\mode\Defence.class
 com\seawaf\config\Mode.class
 com\seawaf\ExceptionInfo.class
 com\seawaf\InputAttackInfo.class
 com\seawaf\config\WafConfig.class
-com\seawaf\db\IPs.class
 com\seawaf\config\mode\Quota.class
 com\seawaf\utils\Utils.class
 com\seawaf\config\mode\InputValidator.class
@@ -16,12 +14,10 @@ com\seawaf\utils\ConfigReader.class
 com\seawaf\listeners\WafSessionListener.class
 com\seawaf\filters\WafRequest.class
 com\seawaf\utils\Const.class
-com\seawaf\db\Sessions.class
 com\seawaf\SessionInfo.class
 com\seawaf\filters\WafFilter.class
 com\seawaf\config\mode\ExceptionCapture.class
 com\seawaf\ErrorCode.class
 com\seawaf\config\User.class
 com\seawaf\SecurityCenter.class
-com\seawaf\db\Users.class
 com\seawaf\listeners\WafSessionAttrListener.class
