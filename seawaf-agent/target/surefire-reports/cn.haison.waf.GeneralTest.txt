@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cn.haison.waf.GeneralTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.049 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.046 sec
