@@ -1,13 +1,16 @@
 # seawaf-agent
 An open source web application firewall component
+# why
+> Applications should not be delegating most of their runtime protection to the external devices. Applica-tions should be capable of self- protection (i.e., have protection features built into the application runtime environment).  
+--by Gartner Joseph Feiman
 # features
 * exception manager 
 	* counter,capture,protect
 * quota manager 
-	* max sessions
-	* max sessions per user
-	* max online users
-	* max single url per session in self-defin time unit(for example 10/5s means that user can request a url 10 times in 5 seconds)
+	* limit max sessions
+	* limit max sessions per user
+	* limit max online users
+	* limit max single url opened per session in self-define time unit
 * attack defence 
 	* SQL Injection
 	* XSS
@@ -56,7 +59,8 @@ hit F5 10 times in 5 seconds will trigger a secure event and the location will r
 		<name>Human Resource Management System</name>
 		<ip>192.168.1.131</ip>
 		<port>8080</port>
-		<active.mode>prd</active.mode>
+		<!-- set the active mode-->
+		<active-mode>prd</active-mode>
 		<session-user-attribute-name>user</session-user-attribute-name>
 		<session-user-name-path>name</session-user-name-path>
 		<session-user-id-path>id</session-user-id-path>
