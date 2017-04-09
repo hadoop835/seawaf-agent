@@ -18,8 +18,7 @@ An open source web application firewall component
 ![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/running-protect.png)
 # how to
 Adding the follow configuration to your web.xml
-# validation
-hit F5 10 times in 5 seconds and you will see the follwing warnning page
+
 ```xml
 <filter>
   	<filter-name>security-filter</filter-name>
@@ -44,6 +43,9 @@ hit F5 10 times in 5 seconds and you will see the follwing warnning page
   	<url-pattern>/seawaf</url-pattern>
   </servlet-mapping>
  ```
+# install validation
+hit F5 10 times in 5 seconds will trigger a secure event and the location will redirect to the follwing warnning page
+![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/warning.png)
  # configuration
  copy the following text to waf.xml and put it to /your/webapp/WEB-INF
  ```xml
