@@ -86,7 +86,7 @@ public class ConfigReader {
 			sysInfo.setName(system.elementText("name"));
 			sysInfo.setIp(system.elementText("ip"));
 			sysInfo.setPort(Integer.parseInt(system.elementText("port")));
-			sysInfo.setActiveMode(system.elementText("active.mode"));
+			sysInfo.setActiveMode(system.elementText("active-mode"));
 			sysInfo.setSessionUserAttributeName(system.elementText("session-user-attribute-name"));
 			sysInfo.setSessionUserIdPath(system.elementText("session-user-id-path"));
 			sysInfo.setSessionUserNamePath(system.elementText("session-user-name-path"));

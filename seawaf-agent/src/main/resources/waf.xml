@@ -5,7 +5,7 @@
 		<name>Human Resource Management System</name>
 		<ip>192.168.1.131</ip>
 		<port>8080</port>
-		<active.mode>prd</active.mode>
+		<active-mode>prd</active-mode>
 		<session-user-attribute-name>user</session-user-attribute-name>
 		<session-user-name-path>name</session-user-name-path>
 		<session-user-id-path>id</session-user-id-path>
