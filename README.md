@@ -14,14 +14,12 @@ An open source web application firewall component
 	* click jack
 * muti-mode support
 # screenshots
-seawaf index page
 ![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/index.png)
-when 500 error detected
-![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/exceptions.png)
-when 500 error occur times more than max permitted ,the exception url will be protected for a while
-![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/protected.png)
+![](https://github.com/zhuinfo/seawaf-agent/blob/master/seawaf-agent/images/running-protect.png)
 # how to
 Adding the follow configuration to your web.xml
+# validation
+hit F5 10 times in 5 seconds and you will see the follwing warnning page
 ```xml
 <filter>
   	<filter-name>security-filter</filter-name>
